@@ -1,0 +1,24 @@
+Question: rice 4 185 oil 3 95 left from 1200 how
+
+
+Observation: Format error: your reply could not be parsed. Do not call functions or output JSON. Reply in plain text with exactly:
+Thought: ...
+Action: CALC | WIKI | DONE
+Action Input: ...
+
+[API error after retries: litellm.BadRequestError: GroqException - {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"{\"name\": \"CA]
+Observation: Format error: your reply could not be parsed. Do not call functions or output JSON. Reply in plain text with exactly:
+Thought: ...
+Action: CALC | WIKI | DONE
+Action Input: ...
+
+Thought: Compute remaining amount after buying rice and oil.
+Action: CALC
+Action Input: 1200 - (4*185 + 3*95)
+Observation: 175
+
+Thought: The remaining amount is 175.
+Action: DONE
+Action Input: 175
+
+FINAL ANSWER: 175

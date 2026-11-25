@@ -1,0 +1,17 @@
+Question: I have GHS 1,200. I want 4 bags of rice at GHS 185 each and 3 gallons of oil at GHS 95 each. How much will I have left?
+
+Thought: I need to calculate the total cost of the items and subtract it from the initial amount.
+Action: CALC
+Action Input: 4*185 + 3*95
+Observation: 1025
+
+Thought: Subtract the total cost from the initial amount to find the remaining balance.
+Action: CALC
+Action Input: 1200 - 1025
+Observation: 175
+
+Thought: The remaining amount is GHS 175.
+Action: DONE
+Action Input: You will have GHS 175 left.
+
+FINAL ANSWER: You will have GHS 175 left.

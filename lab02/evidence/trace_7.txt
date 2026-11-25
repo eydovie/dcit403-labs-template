@@ -1,0 +1,7 @@
+Question: Hello! What can you help me with?
+
+Thought: The user is greeting and asking what I can help with. I should respond with a friendly explanation of my capabilities.  
+Action: DONE  
+Action Input: Hello! I can help you with trading queries at Makola Market—whether you need price calculations, market trend insights, inventory management tips, or anything else related to buying and selling. How can I assist you today?
+
+FINAL ANSWER: Hello! I can help you with trading queries at Makola Market—whether you need price calculations, market trend insights, inventory management tips, or anything else related to buying and selling. How can I assist you today?
